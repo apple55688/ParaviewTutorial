@@ -57,9 +57,10 @@ ninja
 ```
 ### Windows
 1. 環境:  
- * 下載並安裝[git bash for windows][gitforwindows]
- * 下載並安裝 [cmake][cmake-download]
- * 下載並安裝 [Visual Studio 2019 Community Edition][visual-studio]
+ * windows 10
+ * 下載[git bash for windows][gitforwindows]
+ * 下載[cmake][cmake-download]
+ * 下載[Visual Studio 2019 Community Edition][visual-studio]
  * 下載 [ninja-build][ninja] 然後將`ninja.exe` 放進`C:\Windows\`
  * 從[Microsoft MPI][msmpi]下載並安裝`msmpisetup.exe` 跟`msmpisdk.msi`  
  我下載的是10.1.1的版本，安裝完畢後輸入  
@@ -71,7 +72,7 @@ set MSMPI
  * 下載並安裝Windows版本的 [Qt 5.15.2][qt-download-5.15.2], 0安裝的時候選擇MSVC 2019 64-bit 的選項
  ![Alt text](MSVC2019.png).
     * 然後添加 `C:\Qt\5.15.2\msvc2019_64\bin` 到`PATH` 環境變數.
-2. 建置  
+2. Build開發者模式  
 Paraview有分許多版本可以下載
 ![Alt text](image-1.png)
  * 打開 git bash
@@ -86,7 +87,7 @@ mv paraview pv
 mkdir pvb
 ```
 
- * 如果要執行特定版本, eg: v5.9.1，執行下列指令並把 "tag"換成所要下載的版本，我下載的是5.11.0
+ * 特定版本, eg: v5.9.1，執行下列指令並把 "tag"換成所要下載的版本，我下載的是5.11.0
 
 ```sh
 cd C:
