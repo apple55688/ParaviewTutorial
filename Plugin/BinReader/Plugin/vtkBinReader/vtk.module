@@ -1,0 +1,14 @@
+NAME
+  vtkBinReader
+DESCRIPTION
+  An example plugin that adds a reader to the ParaView GUI. It is added in the
+  file dialog when opening files.
+DEPENDS
+  VTK::IOImage
+  VTK::CommonCore
+  VTK::IOImage
+  VTK::InteractionStyle
+  VTK::RenderingCore
+  VTK::RenderingContextOpenGL2
+  VTK::ViewsCore
+  VTK::ParallelMPI 

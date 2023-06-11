@@ -1,0 +1,435 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.29.30148.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/BinReader/build/CMakeFiles/3.26.0-rc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\BinReader\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.29.30148.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/BinReader/build/CMakeFiles/3.26.0-rc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\BinReader\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-zxdb8e"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-zxdb8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-zxdb8e
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_83cb8 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_83cb8.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_83cb8.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_83cb8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83cb8.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_83cb8.exe /implib:cmTC_83cb8.lib /pdb:cmTC_83cb8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-d06uyq"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-d06uyq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-d06uyq
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_c9e24 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c9e24.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_c9e24.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c9e24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c9e24.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_c9e24.exe /implib:cmTC_c9e24.lib /pdb:cmTC_c9e24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmDeviceAdapters.cmake:362 (find_package)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmWrappers.cmake:14 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtkm/VTKmConfig.cmake:171 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:129 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:66 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-l4i827"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-l4i827"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-l4i827
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_9a20e && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9a20e.dir\\src.c.obj /FdCMakeFiles\\cmTC_9a20e.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l4i827\\src.c
+        FAILED: CMakeFiles/cmTC_9a20e.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9a20e.dir\\src.c.obj /FdCMakeFiles\\cmTC_9a20e.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l4i827\\src.c
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l4i827\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmDeviceAdapters.cmake:362 (find_package)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmWrappers.cmake:14 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtkm/VTKmConfig.cmake:171 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:129 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:66 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-rqswk0"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-rqswk0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-rqswk0
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_ba28f && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ba28f.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ba28f.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqswk0\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ba28f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ba28f.dir\\CheckFunctionExists.c.obj  /out:cmTC_ba28f.exe /implib:cmTC_ba28f.lib /pdb:cmTC_ba28f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ba28f.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ba28f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ba28f.dir\\CheckFunctionExists.c.obj  /out:cmTC_ba28f.exe /implib:cmTC_ba28f.lib /pdb:cmTC_ba28f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ba28f.dir\\CheckFunctionExists.c.obj /out:cmTC_ba28f.exe /implib:cmTC_ba28f.lib /pdb:cmTC_ba28f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ba28f.dir/intermediate.manifest CMakeFiles\\cmTC_ba28f.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmDeviceAdapters.cmake:362 (find_package)"
+      - "C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake/VTKmWrappers.cmake:14 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtkm/VTKmConfig.cmake:171 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:129 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:66 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-9k8dpm"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-9k8dpm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-9k8dpm
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_5a185 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5a185.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5a185.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9k8dpm\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a185.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a185.dir\\CheckFunctionExists.c.obj  /out:cmTC_5a185.exe /implib:cmTC_5a185.lib /pdb:cmTC_5a185.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_5a185.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a185.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a185.dir\\CheckFunctionExists.c.obj  /out:cmTC_5a185.exe /implib:cmTC_5a185.lib /pdb:cmTC_5a185.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a185.dir\\CheckFunctionExists.c.obj /out:cmTC_5a185.exe /implib:cmTC_5a185.lib /pdb:cmTC_5a185.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5a185.dir/intermediate.manifest CMakeFiles\\cmTC_5a185.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:152 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:170 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-mus5yh"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-mus5yh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/patches/99;C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-mus5yh
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_075f1 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_075f1.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_075f1.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mus5yh\\test_mpi.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_075f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_075f1.dir\\test_mpi.c.obj  /out:cmTC_075f1.exe /implib:cmTC_075f1.lib /pdb:cmTC_075f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtkModule.cmake:3972 (generate_export_header)"
+      - "Plugin/vtkBinReader/CMakeLists.txt:4 (vtk_module_add_module)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-he1a4x"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-he1a4x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-he1a4x
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_4f68e && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4f68e.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_4f68e.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx
+        FAILED: CMakeFiles/cmTC_4f68e.dir/src.cxx.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4f68e.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_4f68e.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(1): error C2065: '__deprecated__': undeclared identifier
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(1): error C2062: type 'int' unexpected
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(1): error C2143: syntax error: missing ';' before '{'
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(1): error C2447: '{': missing function header (old-style formal list?)
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he1a4x\\src.cxx(2): error C3861: 'somefunc': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtkModule.cmake:3972 (generate_export_header)"
+      - "Plugin/vtkBinReader/CMakeLists.txt:4 (vtk_module_add_module)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-250bb7"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-250bb7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-250bb7
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_658b8 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_658b8.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_658b8.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-250bb7\\src.cxx
+        C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-250bb7\\src.cxx(2): warning C4996: 'somefunc': was declared deprecated
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_658b8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_658b8.dir\\src.cxx.obj  /out:cmTC_658b8.exe /implib:cmTC_658b8.lib /pdb:cmTC_658b8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:152 (include)"
+      - "C:/pvdebug/pvb/vtk-config.cmake:1 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:170 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-gqfnck"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-gqfnck"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/patches/99;C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-gqfnck
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_1aac4 && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1aac4.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_1aac4.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqfnck\\test_mpi.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1aac4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1aac4.dir\\test_mpi.c.obj  /out:cmTC_1aac4.exe /implib:cmTC_1aac4.lib /pdb:cmTC_1aac4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/vtk-config.cmake:152 (include)"
+      - "C:/pvdebug/pvb/vtk-config.cmake:1 (include)"
+      - "C:/pvdebug/pvb/lib/cmake/paraview-5.11/paraview-config.cmake:170 (find_package)"
+      - "C:/pvdebug/pvb/paraview-config.cmake:1 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-dkprlg"
+      binary: "C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-dkprlg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk/patches/99;C:/pvdebug/pvb/lib/cmake/paraview-5.11/vtk;C:/pvdebug/pvb/lib/cmake/paraview-5.11;C:/pvdebug/pv/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMake"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: C:/BinReader/build/CMakeFiles/CMakeScratch/TryCompile-dkprlg
+        
+        Run Build Command(s):C:/Windows/ninja.exe -v cmTC_1817b && [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1817b.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_1817b.dir\\ /FS -c C:\\BinReader\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkprlg\\test_mpi.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1817b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100190~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1817b.dir\\test_mpi.c.obj  /out:cmTC_1817b.exe /implib:cmTC_1817b.lib /pdb:cmTC_1817b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -1,0 +1,42 @@
+
+#ifndef VTKBINREADER_EXPORT_H
+#define VTKBINREADER_EXPORT_H
+
+#ifdef VTKBINREADER_STATIC_DEFINE
+#  define VTKBINREADER_EXPORT
+#  define VTKBINREADER_NO_EXPORT
+#else
+#  ifndef VTKBINREADER_EXPORT
+#    ifdef vtkBinReader_EXPORTS
+        /* We are building this library */
+#      define VTKBINREADER_EXPORT 
+#    else
+        /* We are using this library */
+#      define VTKBINREADER_EXPORT 
+#    endif
+#  endif
+
+#  ifndef VTKBINREADER_NO_EXPORT
+#    define VTKBINREADER_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef VTKBINREADER_DEPRECATED
+#  define VTKBINREADER_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef VTKBINREADER_DEPRECATED_EXPORT
+#  define VTKBINREADER_DEPRECATED_EXPORT VTKBINREADER_EXPORT VTKBINREADER_DEPRECATED
+#endif
+
+#ifndef VTKBINREADER_DEPRECATED_NO_EXPORT
+#  define VTKBINREADER_DEPRECATED_NO_EXPORT VTKBINREADER_NO_EXPORT VTKBINREADER_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef VTKBINREADER_NO_DEPRECATED
+#    define VTKBINREADER_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* VTKBINREADER_EXPORT_H */

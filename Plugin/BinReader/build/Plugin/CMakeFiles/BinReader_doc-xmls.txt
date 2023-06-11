@@ -1,0 +1,1 @@
+C:/BinReader/Plugin/vtkBinReader/readers.xml

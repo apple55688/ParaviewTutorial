@@ -1,0 +1,29 @@
+<ServerManagerConfiguration>
+  <ProxyGroup name="sources">
+   <SourceProxy name="BinReader"
+                class="vtkBinReader"
+                label="Bin Reader">
+     <Documentation
+       short_help="Read a Bin file."
+       long_help="Read a binary file and output its contents to the console.">
+       The Bin Reader reads bin (Binary File) files. The default file extension is .bin.
+     </Documentation>
+     <StringVectorProperty
+        name="FileName"
+        animateable="0"
+        command="SetFileName"
+        number_of_elements="1"
+        panel_visibility="never">
+        <FileListDomain name="files"/>
+        <Documentation>
+          This property specifies the file name for the Bin reader.
+        </Documentation>
+     </StringVectorProperty>
+
+     <Hints>
+      <ReaderFactory extensions="bin" file_description="Select compressed .bin file" />
+     </Hints>
+   <!-- End MyPNGReader -->
+   </SourceProxy>
+  </ProxyGroup>
+</ServerManagerConfiguration>

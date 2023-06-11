@@ -1,0 +1,27 @@
+
+==Bin Reader==
+
+Read a binary file and output its contents to the console.
+The Bin Reader reads bin (Binary File) files. The default file extension is .bin.
+
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''FileName''' (FileName)
+|
+
+This property specifies the file name for the Bin reader.
+
+|
+
+|
+The value(s) must be a filename (or filenames).
+
+|}
+
