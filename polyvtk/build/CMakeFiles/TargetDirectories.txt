@@ -1,0 +1,3 @@
+C:/polyvtk/build/CMakeFiles/polyvtk.dir
+C:/polyvtk/build/CMakeFiles/edit_cache.dir
+C:/polyvtk/build/CMakeFiles/rebuild_cache.dir
