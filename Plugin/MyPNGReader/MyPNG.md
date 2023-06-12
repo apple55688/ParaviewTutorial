@@ -132,5 +132,5 @@ paraview_plugin_scan指令用於掃描插件的描述檔，該描述檔位於Plu
 
 然後，通過paraview_plugin_build指令，它根據之前的配置來構建插件。它指定了插件的目的地目錄和子目錄，以及需要構建的插件。
 
-這兩個CMakeLists.txt檔案一起工作，用於定義、配置和構建"MyPNGReader"插件，並將其添加到ParaView中。
+這兩個CMakeLists.txt檔案一起工作，用於定義、配置和構建"MyPNGReader"插件，並將他添加到ParaView中。
 
