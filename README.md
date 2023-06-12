@@ -17,3 +17,7 @@ Paraview的plugin具有以下特色和優點：
 插件加載方式：可以通過插件管理器（Plugin Manager）來加載插件。插件管理器提供了加載本地插件和遠程插件的選項。對於同時具有服務器端和客戶端組件的插件，可以在服務器和客戶端上同時加載。ParaView會自動將插件的相關組件分發到每個進程上。
 
 Paraview的插件機制為開發人員提供了靈活、可擴展的方式來增加新的功能和定制化組件，以滿足特定的數據可視化和分析需求. 插件可以擴展Paraview的算法能力、用戶界面以及數據可視化視圖，使其更適用於不同領域和工作流程的應用.
+## Building Paraview Plugin Guide
+1.需要先依照主頁'buildingParaview.md'依照系統下載並建置 Paraview   
+2.參考Plugin資料夾中的'Plugin.md'了解大致上的Plugin介紹就可以寫一個custom plugin  
+3.可以依照MyPNG的範例實作並將build成功的.so/.ddl檔匯入Plugin
